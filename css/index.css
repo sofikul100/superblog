@@ -1,0 +1,147 @@
+/* google fonts--- roboto---- */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;1,200&family=Jost:wght@100;200;300&family=Merienda:wght@600&family=Poppins:wght@100;200&family=Raleway:wght@200;300;400&family=Roboto:wght@100;300;400;500&display=swap');
+
+
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color:#ebebeb;
+}
+
+.header{
+    position: fixed;
+    width: 85%;
+    margin:0 auto;
+    background-color: white;
+    height: auto;
+    left:0;
+    right: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px 0px;
+    z-index:50;
+}
+
+
+.navigation_content{
+   display: flex;
+   padding: 0px 15px;
+   align-items: center;
+   justify-content: space-between;
+}
+.logo a{
+    font-weight: bold;
+    color: tomato;
+    text-decoration: none;
+    font-size: 25px;
+
+}
+
+.navigation_menu a{
+    text-decoration: none;
+    color:black;
+    margin:10px;
+    font-weight: 500;
+    font-size: 15px;
+    transition: 0.1s;
+}
+
+.navigation_menu a:hover{
+    color:white;
+    background-color: tomato;
+    padding: 10px 15px;
+    border-radius: 5px;
+    
+}
+.login_button{
+    background:tomato;
+    border:1px solid tomato;
+    padding: 5px 10px;
+    border-radius: 2px;
+    color:white;
+    font-weight: bold;
+}
+
+.login_button:hover{
+    background-color: black;
+    transition: 0.5s;
+    border-color: black;
+    cursor: pointer;
+}
+.register_button{
+    background:tomato;
+    border:1px solid tomato;
+    padding: 5px 10px;
+    border-radius: 2px;
+    color:white;
+    font-weight: bold;
+}
+
+.register_button:hover{
+    background-color: black;
+    transition: 0.5s;
+    border-color: black;
+    cursor: pointer;
+}
+.blog_section{
+     width: 85%;
+     background-color: white;
+     height: auto;
+     margin: 0 auto;
+     position: absolute;
+     left: 0;
+     right: 0;
+     top:71px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.blog_content_section{
+   padding: 40px 20px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   margin:0 auto;
+   margin-bottom: 80px;
+}
+.blog_image img{
+    max-width: 100%;
+    height: auto;
+    margin:auto
+}
+
+.single_blog{
+    width: 20%;
+    height: auto;
+    margin:0px 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px 40px;
+    margin-left: 3.5%;
+    margin-top: 20px;
+}
+.blog_text h1{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.blog_text p{
+    font-size: 13px;
+}
+.footer_section{
+    background-color: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin:0 auto;
+    bottom: 0;
+}
+.footer_section div{
+    text-align: center;
+}
+
+.footer_text  p{
+    color:white;
+    font-weight: bold;
+}
